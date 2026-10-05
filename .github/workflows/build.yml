@@ -2,7 +2,7 @@ name: Build libopenmpt-godot
 
 on:
   push:
-    branches: [ dev ]
+    branches: [ main ]
     paths:
       - 'src/**'
       - 'tests/**'
@@ -11,7 +11,7 @@ on:
       - 'libopenmpt/**'
       - '.github/workflows/build.yml'
   pull_request:
-    branches: [ dev ]
+    branches: [ main ]
     paths:
       - 'src/**'
       - 'tests/**'
